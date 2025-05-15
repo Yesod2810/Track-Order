@@ -97,7 +97,7 @@ function confirmOrder(index) {
 renderTable();
 
 const shipperPositions = [
-    { name: "Nguyễn Thanh Hùng", lat: 10.7812, lng: 106.7099 },
+    { name: "Nguyễn Thanh Hùng", lat: 10.7812, lng: 106.7199 },
     { name: "Lê Thành Nhân", lat: 10.7798, lng: 106.6991 },
     { name: "Trần Trọng Nghĩa", lat: 10.7752, lng: 106.7035 },
     { name: "Nguyễn Thu Hường", lat: 10.7743, lng: 106.6987 },
