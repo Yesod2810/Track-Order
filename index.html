@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Quản lý Đơn hàng Thông minh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <h2>Bản đồ Vị trí Shipper</h2>
+        <div id="map" style="height: 400px; margin-bottom: 30px;"></div>
+
+
+    <h2>Bảng Theo Dõi Đơn Hàng</h2>
+    <table id="orderTable">
+        <thead>
+        <tr>
+            <th>STT</th>
+            <th>Mã đơn</th>
+            <th>Món ăn</th>
+            <th>Số lượng</th>
+            <th>Shipper</th>
+            <th>Khoảng cách (km)</th>
+            <th>Thời gian đặt</th>
+            <th>Dự kiến đến</th>
+            <th>Tình trạng</th>
+            <th>Xác nhận</th>
+        </tr>
+        </thead>
+        <tbody id="orderBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
