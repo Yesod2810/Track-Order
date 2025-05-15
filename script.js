@@ -18,6 +18,26 @@ const orders = [
     {
         code: "1115", food: "5 PIZZA, 10 COCA", qty: 15, shipper: "Công Dương Danh",
         distance: 10, time: "12:00", eta: "12:20", status: "CHỜ", confirmed: false
+    },
+    {
+        code: "1117", food: "10 COCA", qty: 10, shipper: "Công Dương Danh",
+        distance: 10, time: "10:00", eta: "10:20", status: "CHỜ", confirmed: false
+    },
+    {
+        code: "1119", food: "2 DA GÀ, 3 KHOAI TÂY CHIÊN", qty: 5, shipper: "Nguyễn Thu Hường",
+        distance: 3, time: "13:00", eta: "13:10", status: "CHỜ", confirmed: false
+    },
+    {
+        code: "1116", food: "1 PIZZA, 1 COCA", qty: 2, shipper: "Lê Thành Nhân",
+        distance: 7, time: "12:10", eta: "12:25", status: "CHỜ", confirmed: false
+    },
+    {
+        code: "1118", food: "1 PIZZA, 1 BÁNH MÌ BƠ TỎI, 1 COCA", qty: 3, shipper: "Nguyễn Thanh Hùng",
+        distance: 9, time: "12:00", eta: "12:20", status: "CHỜ", confirmed: false
+    },
+    {
+        code: "1120", food: "3 KHOAI TÂY CHIÊN", qty: 3, shipper: "Trần Trọng Nghĩa",
+        distance: 5, time: "11:30", eta: "11:45", status: "CHỜ", confirmed: false
     }
 ];
 
@@ -77,11 +97,11 @@ function confirmOrder(index) {
 renderTable();
 
 const shipperPositions = [
-    { name: "Nguyễn Thanh Hùng", lat: 10.7769, lng: 106.7009 },
+    { name: "Nguyễn Thanh Hùng", lat: 10.7812, lng: 106.7099 },
     { name: "Lê Thành Nhân", lat: 10.7798, lng: 106.6991 },
     { name: "Trần Trọng Nghĩa", lat: 10.7752, lng: 106.7035 },
     { name: "Nguyễn Thu Hường", lat: 10.7743, lng: 106.6987 },
-    { name: "Công Dương Danh", lat: 10.7799, lng: 106.6970 }
+    { name: "Công Dương Danh", lat: 10.7700, lng: 106.6870 }
 ];
 
 const map = L.map('map').setView([10.7769, 106.7009], 14);
